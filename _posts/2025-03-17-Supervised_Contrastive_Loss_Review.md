@@ -20,11 +20,11 @@ Supervised Learning 의 경우 학습에 가장 강력한 정보가 주어진다
 
 실제 수식을 보면 바로 위 명시한 핵심 아이디어가 녹아있다. exp 와 log 등의 스케일링 , 미분을 위한 요소들을 제외하면 이해가 쉽다.
 
-![Screenshot from 2025-03-17 00-28-45](/home/shlee/Desktop/blog/Si-Hyeon-Lee.github.io/images/2025-03-17-Supervised_Contrastive_Loss_Review/Screenshot from 2025-03-17 00-28-45.png)
+
 
 CNN 을 통과해서 만들어진 z 임베딩(=정확히는 Convolution 을 거쳐 얻은 Feature 들을 128 차원으로 Projection 시킨 텐서)들 끼리의 내적으로 유사도를 보겠다는 이야기이다. 같은 Class 이면 내적값이 커지도록(분자 주목) 다른 클래스이면 멀어지도록(분모 주목) 학습하는게 SupCon 로스의 의미.
 
-
+![Screenshot from 2025-03-17 00-28-45](../images/2025-03-17-Supervised_Contrastive_Loss_Review/Screenshot from 2025-03-17 00-28-45-1742142395150-2.png)
 
 ### 궁금점과 고찰.
 
