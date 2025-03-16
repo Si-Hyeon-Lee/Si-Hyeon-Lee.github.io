@@ -1,3 +1,7 @@
+---
+layout: post
+title: "Supervised Contrastive Learning Review"
+---
 
 
 # Supervised Contrastive Learning 리뷰
